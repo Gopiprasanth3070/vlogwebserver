@@ -38,7 +38,7 @@ env:
   ECS_CLUSTER: APR07Vlogrweb01                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: ./taskdefini.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: 170690553296.dkr.ecr.ap-south-1.amazonaws.com/apr07vlogrweb_server:latest           # set this to the name of the container in the
+  CONTAINER_NAME: 29f4e2d27cbdff4146fd1c1977fe9cbdec7a5c9b           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 jobs:
